@@ -25,22 +25,22 @@
   list-style: none;
 }
 
-.header__link__active {
+.adress__link__active {
   text-decoration: none;
 }
 
-.header__link {
+.adress__link {
   text-underline-position: under;
 }
 
-.header__address {
+.full__address {
   font-size: 18px;
   font-style: normal;
   font-weight: 400;
   line-height: 135%;
   justify-self: flex-end;
   max-width: 240px;
-  padding-bottom: 2px;
+  padding-bottom: 3px;
   padding-left: 3px;
 }
 
@@ -120,7 +120,7 @@
   padding-left: 27px;
 }
 
-.cover__description__for__b {
+.letter__spacing__extended__description {
   letter-spacing: 29px;
 }
 
@@ -167,6 +167,7 @@
   line-height: 120%;
   position: relative;
   z-index: 3;
+  text-align: left;
 }
 
 .lots__card__list__item {
@@ -195,29 +196,26 @@
   z-index: 3;
   min-width: 254px;
   padding: 51px 40px 0 40px;
+  text-underline-position: under;
 }
 
-.card__text__film {
-  text-align: left;
-  padding: 241px 40px 48px 40px;
+.card__text {
+  position: relative;
+  padding: 0 40px 46px 40px;
 }
 
-.card__text__book {
-  text-align: left;
-  padding: 0 40px 48px 40px;
+.card__text__padding__film {
+  padding-top: 241px;
 }
 
-.card__text__picture {
-  text-align: left;
-  padding: 94px 40px 48px 40px;
+.card__text__padding__picture {
+  padding-top: 94px;
 }
 
 .card__type {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  width: 334px;
-  height: 563px;
 }
 
 .card__type__film {
@@ -251,7 +249,6 @@
   padding: 35px 24px 78px;
   gap: 25px;
   width: 1052px;
-  height: 595px;
 }
 
 .about__logo {
@@ -293,42 +290,23 @@
   line-height: 24px;
 }
 
-.about__text__first {
+.about__text__letter__spacing {
   letter-spacing: 0.2px;
   padding: 0 0 24px 0;
   min-width: 688px;
 }
 
-.about__text__second {
+.about__text__no__letter__spacing {
   min-width: 693px;
 }
 
 .footer {
-  padding: 181px 50px 81px 50px;
+  padding: 104px 50px 80px 50px;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   align-items: center;
   justify-items: center;
   gap: 160px;
-}
-
-.footer__address {
-  font-size: 18px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 135%;
-  justify-self: flex-end;
-  max-width: 240px;
-  padding-bottom: 7px;
-  padding-left: 2px;
-}
-
-.footer__link {
-  text-underline-position: under;
-}
-
-.footer__link__active {
-  text-decoration: none;
 }
 
 .footer__menu {
