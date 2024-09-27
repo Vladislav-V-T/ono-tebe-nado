@@ -204,14 +204,6 @@
   padding: 0 40px 46px 40px;
 }
 
-.card__text__padding__film {
-  padding-top: 241px;
-}
-
-.card__text__padding__picture {
-  padding-top: 94px;
-}
-
 .card__type {
   background-size: cover;
   background-position: center;
@@ -220,6 +212,10 @@
 
 .card__type__film {
   background-image: url(../images/card-lot-01.jpg);
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  gap: 243px;
 }
 
 .card__type__book {
@@ -228,6 +224,10 @@
 
 .card__type__picture {
   background-image: url(../images/card-lot-03.jpg);
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  gap: 96px;
 }
 
 .lots__look__more__link {
