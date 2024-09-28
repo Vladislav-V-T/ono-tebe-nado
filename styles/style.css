@@ -208,14 +208,14 @@
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+  display: flex;
+  height: 100%;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .card__type__film {
   background-image: url(../images/card-lot-01.jpg);
-  display: flex;
-  flex-wrap: wrap;
-  align-items: flex-start;
-  gap: 243px;
 }
 
 .card__type__book {
@@ -224,10 +224,6 @@
 
 .card__type__picture {
   background-image: url(../images/card-lot-03.jpg);
-  display: flex;
-  flex-wrap: wrap;
-  align-items: flex-start;
-  gap: 96px;
 }
 
 .lots__look__more__link {
